@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <meta name="author" content="Cristian Luna">
+    <title>Agenda Web | Login</title>
+</head>
+<body>
+    <section>
+        <h2>Inicio de Sesion</h2>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <br><br><br><br>
+        <button onclick="index()">Login Up</button>
+
+        <script>
+        function index() {
+            /** la funcion "window.location.replace()" nos sirve para un cambio de pagina sin la
+              opcion de regresar a la anterior**/
+            /** en cambio con la funcion "window.location.assign()" si se puede regresar a la 
+              pagina anterior**/
+            window.location.replace("./index.html");
+        }
+        </script>
+    </section>
+</body>
+</html>
